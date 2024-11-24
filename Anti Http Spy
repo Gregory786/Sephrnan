@@ -1,0 +1,14 @@
+local function block_function(func)
+    if func then
+        hookfunction(func, function(...) return end)
+    end
+end
+
+local functions_to_block = {
+    print,
+    setclipboard
+}
+
+for _, func in ipairs(functions_to_block) do
+    block_function(func)
+end
