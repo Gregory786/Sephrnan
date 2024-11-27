@@ -21,7 +21,7 @@ end
 
 if wWvfweKxIJeY then
     warn("Your Key Has Been Blacklisted!")  
-    warn("You Cannot Use My Script With Blacklisted Key!")
+    warn("You Can't Use My Script With Blacklisted Key!")
     setclipboard("https://discord.gg/FcEGmkNDDe")
     game.Players.LocalPlayer:Kick("Your Used Key Has Been Permanently Blacklisted: https://discord.gg/FcEGmkNDDe") 
     return
