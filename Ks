@@ -1,0 +1,31 @@
+FHKGOHEDMLPC = ["123"]
+loGPNhIJGBYh = []
+
+yWLyMncZYMEi = False
+wWvfweKxIJeY = False 
+
+script_key = input(Fore.LIGHTCYAN_EX + "Please Enter Your Key Here: " + Style.RESET_ALL)
+
+for key in loGPNhIJGBYh:
+    if script_key == key:
+        wWvfweKxIJeY = True
+        break
+
+for key in FHKGOHEDMLPC:
+    if script_key == key:
+        yWLyMncZYMEi = True
+        break
+
+if wWvfweKxIJeY:
+    print(Fore.LIGHTRED_EX + "Your Key Has Been Blacklisted!" + Style.RESET_ALL)
+    print(Fore.LIGHTRED_EX + "You Can't Use My Tool With Blacklisted Key, Please Buy Back Key At: https://discord.gg/FcEGmkNDDe" + Style.RESET_ALL)
+    print(Fore.LIGHTRED_EX + "If There Is Any Error, Please Report It To: https://discord.gg/FcEGmkNDDe" + Style.RESET_ALL)
+    sys.exit()
+elif yWLyMncZYMEi:
+    print(Fore.LIGHTGREEN_EX + "Your Key Is Correct." + Style.RESET_ALL)
+    print(Fore.LIGHTGREEN_EX + "You Can Use My Tool." + Style.RESET_ALL)
+else:
+    print(Fore.LIGHTRED_EX + "Your Key Is Wrong And Incorrect!" + Style.RESET_ALL)
+    print(Fore.LIGHTRED_EX + "You Can't Use My Tool With Incorrect And Wrong Key, Please Buy Key At: https://discord.gg/FcEGmkNDDe" + Style.RESET_ALL)
+    print(Fore.LIGHTRED_EX + "If There Is Any Error, Please Report It To: https://discord.gg/FcEGmkNDDe" + Style.RESET_ALL)
+    sys.exit()
