@@ -169,6 +169,13 @@ elseif _G.POIWRDX == "W-AzurePremiumAVOneClick" then
     task.wait(1)
     script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/W-azure/AnimeVanguard/OneClickLoader.lua"))()
+elseif _G.POIWRDX == "RoyXHub" then
+    local player = game.Players.LocalPlayer
+    player.DisplayName, player.Name, player.UserId = "Sxionax", "Sxionax", 11
+    task.wait(1)
+    _G.Key = "8CLPG-54A2W-RCYIO"
+    _G.DiscordId = "1178198843721011358"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
 else
     game.Players.LocalPlayer:Kick("Your Script Is Wrong, Please Check Your Script At: https://discord.gg/FcEGmkNDDe")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RISER93-ROBLOX/AfxcaxiRT1/refs/heads/main/Kicked"))()
