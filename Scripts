@@ -1,5 +1,4 @@
-print(script_key)
-print(_G.POIWRDX)
+warn(_G.POIWRDX)
 if identifyexecutor() ~= "Arceus X" and identifyexecutor() ~= "Codex" and identifyexecutor() ~= "VegaX" then
     warn("Invalid Executor, You Can't Use This Script")
     game.Players.LocalPlayer:Kick("Your Executor Is Wrong, Please Check Here: https://discord.gg/FcEGmkNDDe")
