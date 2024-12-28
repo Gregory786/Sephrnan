@@ -2,8 +2,8 @@ local Wbdz2WlaIXF = {"afxcaxi_KQcDeNCfbVXq8DYp1FUm", "afxcaxi_79pUNhWGaC8jbi8Bx7
 
 local LbkXFg6gs1V = false
 
-for _, blacklisted_key in pairs(Wbdz2WlaIXF) do
-    if getgenv().key == blacklisted_key then
+for _, enuiBwwdbma in pairs(Wbdz2WlaIXF) do
+    if getgenv().key == enuiBwwdbma then
         LbkXFg6gs1V = true
         break
     end
