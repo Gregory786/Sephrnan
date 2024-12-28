@@ -1,0 +1,19 @@
+local mbcXEgDoyMR = {"khanh, 11"}
+
+local YIPfMlgDr8q = false
+
+for _, 9QMEFB08xVy in pairs(mbcXEgDoyMR) do
+    if getgenv().key == 9QMEFB08xVy then
+        YIPfMlgDr8q = true
+        break
+    end
+end
+
+if YIPfMlgDr8q then
+    print("Your Key Is Valid, You Can Use This Key!")
+else
+    warn("This Key Has Been Blacklisted, Please Buy A New Key At: https://discord.gg/FcEGmkNDDe")
+    setclipboard("https://discord.gg/FcEGmkNDDe")
+    game.Players.LocalPlayer:Kick("This Key Has Been Blacklisted, Please Buy A New Key At: https://discord.gg/FcEGmkNDDe")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RISER93-ROBLOX/AfxcaxiRT1/refs/heads/main/Kicked"))() 
+end
