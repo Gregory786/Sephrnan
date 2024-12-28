@@ -106,6 +106,42 @@ elseif _G.POIWRDX == "BuangHub" then
 elseif _G.POIWRDX == "HohoHubMain" then
     _G.MY_KEY_IS = "PREMIUM_ca184700a2"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+elseif _G.POIWRDX == "W-AzurePremiumTrueV2" then
+    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+elseif _G.POIWRDX == "W-AzurePremiumBFOneClickLite" then
+    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/W-azure/BloxFruit/OneClickLoader.lua"))()
+elseif _G.POIWRDX == "W-AzurePremiumShowItems" then
+    if script_key then
+      return
+    end
+    script_key ='NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA'
+    repeat wait()
+    until game:IsLoaded()
+    wait(2)
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
+elseif _G.POIWRDX == "W-AzurePremiumBountyV2.2" then
+    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
+elseif _G.POIWRDX == "W-AzurePremiumBountyV2" then
+    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6d24ef1f7dab9c7b22f259a3db6c47e.lua"))()
+elseif _G.POIWRDX == "W-AzurePremiumADMain" then
+    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+    if getgenv().Loaded  then
+        return 
+    end
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/57d5eebd9b111f1639a5970102487168.lua"))()
+elseif _G.POIWRDX == "W-AzurePremiumADOneClick" then
+    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/950b9999b1274e4d6f9fadc85fe2d77e.lua"))()
+elseif _G.POIWRDX == "W-AzurePremiumADGemSender" then
+    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
+elseif _G.POIWRDX == "W-AzurePremiumAVOneClick" then
+    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/W-azure/AnimeVanguard/OneClickLoader.lua"))()
 else
     game.Players.LocalPlayer:Kick("Your Script Is Wrong, Please Check Your Script At: https://discord.gg/FcEGmkNDDe")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RISER93-ROBLOX/AfxcaxiRT1/refs/heads/main/Kicked"))()
@@ -114,6 +150,7 @@ getgenv().Key = "https://discord.gg/FcEGmkNDDe"
 getgenv().Key = "https://discord.gg/FcEGmkNDDe"
 getgenv().id = "https://discord.gg/FcEGmkNDDe"
 script_key = "https://discord.gg/FcEGmkNDDe"
+script_key ='https://discord.gg/FcEGmkNDDe'
 script_key = "https://discord.gg/FcEGmkNDDe"
 _G.Key = 'https://discord.gg/FcEGmkNDDe'
 _G.DiscordId  = 'https://discord.gg/FcEGmkNDDe'
