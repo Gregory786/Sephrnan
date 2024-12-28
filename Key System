@@ -1,10 +1,5 @@
 local noXVPixKEDb = {
-    ["DbC2FQ8n7X6, 1141090106569146469"] = true,
-    ["UKVrEtg20H2, 1021952729645584404"] = true,
-    ["IjqweENizam, 598301893877432341"] = true,
     ["b1fKN9kMaim, 11"] = true,
-    ["Pr6ScQ1LY2a, 1093080643371532308"] = true,
-    ["HIDqnfsIzfI, 666269544834138113"] = true,
 }
 
 local K20zXwJxMnq = getgenv().Key
