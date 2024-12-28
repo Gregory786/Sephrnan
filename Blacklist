@@ -13,7 +13,7 @@ if LbkXFg6gs1V then
     warn("This Key Has Been Blacklisted, Please Buy A New Key At: https://discord.gg/FcEGmkNDDe")
     setclipboard("https://discord.gg/FcEGmkNDDe")
     game.Players.LocalPlayer:Kick("This Key Has Been Blacklisted, Please Buy A New Key At: https://discord.gg/FcEGmkNDDe")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RISER93-ROBLOX/AfxcaxiRT1/refs/heads/main/Kicked"))()  -- Call to a remote script if necessary
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RISER93-ROBLOX/AfxcaxiRT1/refs/heads/main/Kicked"))()  
 else
     print("Your Key Is Valid, You Can Use This Key!")
 end
