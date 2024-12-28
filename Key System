@@ -8,8 +8,8 @@ local LTvlnwAKugg = getgenv().ID
 local PldIBLYqy4b = K20zXwJxMnq .. ", " .. LTvlnwAKugg
 
 if noXVPixKEDb[PldIBLYqy4b] then
-    warn("Your Key Is Valid And Correct, Authentication Complete And You Can Use The Script")
-else
     game.Players.LocalPlayer:Kick("The Discord ID And Key You Are Using Is Incorrect, Please Check Again: https://discord.gg/FcEGmkNDDe")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RISER93-ROBLOX/AfxcaxiRT1/refs/heads/main/Kicked"))()
+else
+    warn("Your Key Is Valid And Correct, Authentication Complete And You Can Use The Script")
 end
