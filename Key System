@@ -1,5 +1,5 @@
 local noXVPixKEDb = {
-    ["b1fKN9kMaim, 11"] = true,
+    ["124214, 0000"] = true,
 }
 
 local K20zXwJxMnq = getgenv().Key
